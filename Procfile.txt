@@ -1,0 +1,1 @@
+web: gunicorn pdf_merger_app:app
