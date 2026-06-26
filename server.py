@@ -1,6 +1,6 @@
 import os
 import re
-from pypdf import PdfReader, PdfWriter
+from PyPDF2 import PdfReader, PdfWriter
 
 def extract_number(filename):
     match = re.search(r'\d+', filename)
